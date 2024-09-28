@@ -1,0 +1,118 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(SamarkanNormal.ttf);
+   }
+  body{
+    background-image: url(prayerwheel.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 0,auto;
+    }
+    #flag{
+        width: 30px;
+        height: 30px;
+    }
+.header1{
+    display :block;
+    justify-content: center;
+    text-align: center;
+    width: 1250px;
+    height: fit-content;
+    background:linear-gradient(#292727,#504946) ;
+    background-size: cover;
+    border-radius: 200px;
+    padding: 30px 80px 30px 80px;
+    text-shadow: 1px 1px gray;   
+    margin: 40px; 
+    }
+    .header2{
+    margin: 40px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 600px 600px;
+    width: 1250px;
+    height: 400px;
+    background:linear-gradient(#A87A38,#8699AB) ;
+    background-size: cover;
+    color: #383534;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    }
+    .footer{
+    display :block;
+    justify-content: start;
+    text-align: start;
+    width: 1250px;
+    height: fit-content;
+    background:linear-gradient(#A87A38,#8699AB) ;
+    background-size: cover;
+    border-radius: 200px;
+    padding: 20px 150px 20px 150px;
+    text-shadow: 1px 1px gray;  
+    margin-bottom: 30px;  
+    }
+     .info{
+    display :flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background:linear-gradient(#49322B,#5B5D5C,#E2E4E7) ;
+    border-radius: 300px;
+    color: pink;
+    text-shadow: 2px 2px gray;
+    padding: 80px;
+    border: 8px solid #49322B;
+    }
+    /* .newsletter{
+       display :flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 0 10px 10px;
+    padding: 15px;
+    border-radius: 50px;
+    } */
+    p,ul{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        }
+    #topthings{
+        margin: 15px;
+        padding: 30px;
+        font-size: 30px;
+        font-family: myFirstfont;
+        text-shadow: 1px 1px whitesmoke;
+        }
+h1{
+     margin: 25px 0 25px;
+    font-family: myFirstFont;
+    color: #DE8663;
+    font-size: 50px;
+}
+h2{
+     margin: 25px 0 25px;
+    font-family: myFirstFont;
+    color: #383534;
+    font-size: 30px;
+}
+#hi{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.img-ttd{
+    width: 300px;
+    height: 150px;
+    padding: 8px;
+    margin: auto;
+    border-radius: 200px ;
+    border: #383534, 1px, solid;
+}
+p :hover{
+    transform: scale(1.8);
+}
+ 

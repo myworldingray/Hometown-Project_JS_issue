@@ -103,7 +103,18 @@ h2{
     height: 100px;
     border-radius: 100px;
 }
+#carousel{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+        padding: 30px;
+        font-size: 30px;
+        font-family: myFirstfont;
+        text-shadow: 1px 1px whitesmoke;
+        display :flex;
+    justify-content: center;
 
+}
 .img-ttd{
     width: 300px;
     height: 150px;

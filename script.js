@@ -1,5 +1,5 @@
 let element_gurkhas = document.getElementById('gurkhas');
-element_gurkhas.style.color = '#000000';
+element_gurkhas.style.color = '#DE8663';
 var images;
 
 

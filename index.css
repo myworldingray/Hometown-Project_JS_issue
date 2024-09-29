@@ -6,8 +6,11 @@
     background-image: url(prayerwheel.jpg);
     background-size: cover;
     text-align: center;
-    margin: 0,auto;
+    margin: auto;
     }
+    ul {
+        list-style-type: none;
+      }
     #flag{
         width: 30px;
         height: 30px;
@@ -42,16 +45,16 @@
     justify-content:space-around;
     align-items: center;
     }
-    .footer{
+    .links{
     display :block;
-    justify-content: start;
-    text-align: start;
+    justify-content: center;
+    text-align: center;
     width: 1250px;
     height: fit-content;
     background:linear-gradient(#A87A38,#8699AB) ;
     background-size: cover;
     border-radius: 200px;
-    padding: 20px 150px 20px 150px;
+    padding: 20px 80px 20px 150px;
     text-shadow: 1px 1px gray;  
     margin-bottom: 30px;  
     }
@@ -66,6 +69,7 @@
     text-shadow: 2px 2px gray;
     padding: 80px;
     border: 8px solid #49322B;
+    margin: 50px 400px 50px;
     }
     /* .newsletter{
        display :flex;
@@ -112,6 +116,37 @@ h2{
     border: #383534, 1px, solid;
 }
 p :hover{
-    transform: scale(1.8);
+    transform: scale(1.8);      
+}
+
+#carousel{
+    width: 600px;
+    height: 200px;
+    padding: 8px;
+    margin: auto;
+    border-radius: 200px ;
+    border: #383534, 5px, solid;
+    
 }
  
+.divcar{
+    display :block;
+    justify-content: center;
+    text-align: center;
+    width: 1250px;
+    height: fit-content;
+    background:linear-gradient(#292727,#504946) ;    
+    border-radius: 600px;
+    padding: 30px 80px 30px 80px;
+    text-shadow: 1px 1px gray;   
+    margin: 20px; 
+}
+.pnbtn{
+   margin: 20px 10px 0 10px;
+   font-size: 30px;
+   font-family: myFirstfont;
+   color: #A87A38;
+   padding: 4px 8px 4px 8px;
+   border-radius: 20px;
+   background:linear-gradient(#292727,#504946) ;  
+   }

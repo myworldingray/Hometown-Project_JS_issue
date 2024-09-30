@@ -1,24 +1,14 @@
 {
-    "name": "Hometown-Project_JS_issue",
-    "version": "1.0.0",
-    "description": "Happy Coding!",
-    "main": "script.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
-    "scripts": {
-        "start": "vite",
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
-      },
-      "dependencies": {
-        "vite": "latest"
-      },
-      "devDependencies": {}
-  }
-  
-  
+  "name": "Scrim-s0340ff",
+  "description": "https://v2.scrimba.com/learn-html-and-css-c0p/~01e",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

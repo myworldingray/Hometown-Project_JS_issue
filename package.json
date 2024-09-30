@@ -1,8 +1,9 @@
 {
-  "name": "Sam's Hometown,
+  "name": "Sam's Hometown",
   "description": "https://samshometown-js-issue.netlify.app/",
+  "main": "script.js",
   "scripts": {
-    "main": "script.js",
+      
     "start": "vite",
     "dev": "vite",
     "build": "vite build",

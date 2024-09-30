@@ -1,7 +1,8 @@
 {
-  "name": "Scrim-s0340ff",
-  "description": "https://v2.scrimba.com/learn-html-and-css-c0p/~01e",
+  "name": "Sam's Hometown,
+  "description": "https://samshometown-js-issue.netlify.app/",
   "scripts": {
+    "main": "script.js",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
